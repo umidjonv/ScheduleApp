@@ -1,0 +1,7 @@
+<div>
+  <ul *ngIf="clients">
+    <li *ngFor="let client as clients">
+      {{client.id}}/{{client.name}}
+    </li>
+  </ul>
+</div>
